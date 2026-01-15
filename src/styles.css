@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* APP BACKGROUNDS */
+.app.light {
+  background: #f4f6f8;
+}
+
+.app.blue {
+  background: linear-gradient(120deg, #e3f2fd, #ffffff);
+}
+
+.app.dark {
+  background: #121212;
+  color: white;
+}
+
+/* TOP BAR */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* MAIN LAYOUT */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.app.dark .card {
+  background: #1e1e1e;
+}
+
+/* FORM */
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* RESUME */
+.resume {
+  width: 210mm;
+  min-height: 297mm;
+  margin: auto;
+  padding: 25mm;
+  background: white;
+  color: black;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.role {
+  font-weight: 500;
+  color: #555;
+}
+
+.contact {
+  font-size: 14px;
+  color: #666;
+}
+
+section {
+  margin-top: 16px;
+}
+
+section h2 {
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 6px;
+}
+
+/* BULLETS */
+.resume ul {
+  padding-left: 18px;
+}
+
+.resume li {
+  margin-bottom: 6px;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
